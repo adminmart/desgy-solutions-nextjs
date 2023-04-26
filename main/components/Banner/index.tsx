@@ -12,7 +12,7 @@ const Banner = () => {
                         <button className='text-blue bg-lightblue hover:shadow-xl text-sm md:text-lg font-bold px-6 py-1 rounded-3xl tracking-wider hover:text-white hover:bg-black'>DESIGN AGENCY</button>
                     </div>
                     <div className="py-3 text-center lg:text-start">
-                        <h1 className='text-6xl lg:text-80xl font-bold text-darkpurple'>
+                        <h1 className='text-4xl lg:text-80xl font-bold text-darkpurple'>
                             Dedicated to <br /> bring your <br /> ideas to life.
                         </h1>
                     </div>

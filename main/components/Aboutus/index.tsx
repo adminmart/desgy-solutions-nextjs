@@ -35,14 +35,14 @@ const Aboutus = () => {
     return (
 
         <div id="aboutus-section">
-            <div className='mx-auto max-w-7xl px-4 py-24 my-32 lg:px-10 bg-lightgrey rounded-3xl relative'>
+            <div className='mx-auto max-w-7xl px-4 py-24 my-20 lg:px-10 bg-lightgrey rounded-3xl relative'>
                 <Image src="/images/aboutus/dots.svg" width={100} height={100} alt="dots-image" className="absolute bottom-1 -left-20" />
                 <h3 className='text-center text-blue text-lg tracking-widest'>ABOUT US</h3>
-                <h4 className='text-center text-4xl lg:text-65xl font-bold'>Know more about us.</h4>
+                <h4 className='text-center text-3xl lg:text-65xl font-bold'>Know more about us.</h4>
                 <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 my-16 gap-x-16 lg:gap-x-32'>
                     {Aboutdata.map((item, i) => (
                         <div key={i} className='hover:bg-navyblue bg-navyblue rounded-3xl mt-16 pt-10 pl-8 pb-10 pr-6 shadow-xl'>
-                            <h4 className='text-4xl font-semibold  text-white mb-5'>{item.heading}</h4>
+                            <h4 className='text-3xl font-semibold  text-white mb-5'>{item.heading}</h4>
                             <Image src={item.imgSrc} alt={item.imgSrc} width={100} height={100} className="mb-5" />
                             <h4 className='text-lg font-normal text-offwhite mb-5'>{item.paragraph}</h4>
                             <Link href="#" className='text-lg font-semibold text-white hover-underline'>{item.link}
