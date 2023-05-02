@@ -133,7 +133,8 @@ html {
 
 .girldoodle {
   top: 12px;
-  right: -115px;
+  /* right: -115px; */
+  right: -0px;
 }
 
 .marginFeature {
@@ -327,7 +328,7 @@ html {
 }
 
 .slick-next {
-  right: -70px!important;
+  right: 0px!important;
 }
 
 .slick-prev {

@@ -25,7 +25,7 @@ const Banner = () => {
 
                 {/* COLUMN-2 */}
 
-                <div className='lg:-m-24 lg:pt-20 hidden lg:block'>
+                <div className='lg:pt-0 hidden lg:block'>
                     <Image src="/images/banner/banner.svg" alt="hero-image" width={800} height={642} />
                 </div>
 
